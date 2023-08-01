@@ -1,0 +1,240 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+#top{
+    height:100vh;
+    max-width:100vw;
+    background-image:url('./photos/download.jpg');
+}
+#logo{
+    width:120px;
+    height:70px;
+    border-radius:10px;
+}
+#logo_btn{
+    display:flex;
+    justify-content: space-between;
+}
+.cont{
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.72);
+}
+#btn{
+    background-color:#e01709;
+    width:75px;
+    height:40px;
+    font-size: 18px;
+    color:white;
+    border-radius: 8px;
+    margin:15px;
+    cursor:pointer;
+}
+#opt{
+    color:white;
+    background-color: black;
+    border:2px solid black;
+    font-size: 16px;
+}
+#second-section{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    top:150px;
+    color:rgb(237, 230, 230);
+}
+.first{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:bolder;
+}
+.second{
+   text-align: center;
+    font-size:1.5em;
+}
+.third{
+    text-align: center;
+    font-size:1.2em;
+    font-weight:bold;
+    padding:15px;
+    
+}
+#form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#btn2{
+    background-color: red;
+    width:120px;
+    height:40px;
+    border:2px solid red;
+    border-radius: 5px;
+}
+.third-section{
+    display:flex;
+    background-color: black;
+    justify-content: space-around;
+    border-top:7.5px solid rgb(45, 45, 45);
+    border-bottom: 7.5px solid rgb(45, 45, 45);
+    /* height:300px; */
+}
+.left {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+.top-left-content{
+    text-align:center;
+    font-size: 2.5em;
+    font-weight:bold;
+}
+
+.tv img{
+    width:300px;
+}
+.lower{
+    text-align: center;
+    font-size:1.1em;
+}
+@media (max-width:1050px) {
+    .third-section{
+        display:flex;
+        flex-direction:column;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        border-top:7.5px solid rgb(45, 45, 45);
+        border-bottom: 7.5px solid rgb(45, 45, 45);;
+    }
+    #form{
+        flex-direction: column;
+    }
+    #btn2{
+        margin:8px;
+    }
+    .top-left-content{
+        text-align: center;
+    }
+    .fourth{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .re-input{
+        flex-direction: column;
+    }
+}
+.fourth-img img{
+    width:400px;
+}
+.fourth{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 7.5px solid rgb(45, 45, 45);
+}
+.fourth-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first-para{
+    font-size:2.5rem;
+    font-weight: bold;
+    color:white;
+}
+.second-para{
+    font-size:1.5rem;
+    color:white;
+}
+.refc{
+    width:600px;
+    font-size: 1.5rem;;
+}
+.faq{
+    background-color: black;
+    height:100%;
+    width:100%;
+}
+.faq-content{
+    text-align: center;
+    color:white;
+    font-size: 2.0rem;
+    font-weight: bold;
+    padding-top:35px;
+}
+.head1{
+    background-color:black;
+    color:white;
+    width:100%;
+}
+.accordian{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    margin:50px 55px;
+}
+.co{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:aliceblue;
+}
+.co1{
+    width:90%;
+    background-color: #232323;
+    margin-bottom:10px;
+    position:relative;
+    height:0;
+    overflow:hidden;
+}
+h3{
+    width:90%;
+    padding:15px;
+   text-align: start;
+   background-color: #2d2c2c;
+}
+ .accordian .add::after{
+    content: '+';
+    float:right;
+    color:#f0edec;
+    font-size: 1.5em;
+}
+.active .co1{
+    height:auto;
+    padding:15px;
+    font-size:25px;
+}
+.active .add::after{
+    content:'-';
+}
+#form p{
+    font-size:1.5rem;
+    text-align: center;
+    color:white;
+    border-bottom:#494848;
+}
+.re-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.re-input{
+    display:flex;
+    margin:10px;
+}
+.btn2-i{
+    text-align: center;
+    margin-left: 8px;
+}
